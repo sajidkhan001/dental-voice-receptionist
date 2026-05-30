@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.gitenv
+*.log
+*.pem
+*.key
+*.backup
+*.bak

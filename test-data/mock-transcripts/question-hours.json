@@ -1,0 +1,36 @@
+{
+  "call_id": "call-20260308-005",
+  "scenario": "Caller asking about Saturday hours and insurance acceptance",
+  "caller_phone": "+15556667777",
+  "call_start": "2026-03-08T13:00:00Z",
+  "language": "en-US",
+  "audio_quality": "good",
+  "caller_emotion": "calm",
+  "transcript": [
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:02",
+      "text": "Hi, I just have a couple of questions. Are you open on Saturdays?",
+      "confidence": 0.99
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:12",
+      "text": "And do you accept MetLife dental insurance?",
+      "confidence": 0.98
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:22",
+      "text": "One more thing — do you guys do Invisalign? My teeth are a little crooked and I've been thinking about it.",
+      "confidence": 0.96
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:35",
+      "text": "How much does Invisalign cost roughly?",
+      "confidence": 0.97
+    }
+  ],
+  "full_text": "Hi, I just have a couple of questions. Are you open on Saturdays? And do you accept MetLife dental insurance? One more thing — do you guys do Invisalign? My teeth are a little crooked and I've been thinking about it. How much does Invisalign cost roughly?"
+}

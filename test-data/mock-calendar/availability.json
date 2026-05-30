@@ -1,0 +1,283 @@
+{
+  "calendar_data": {
+    "generated_for": "2026-03-09 to 2026-03-21",
+    "clinic": "Pearl Smile Dental",
+    "timezone": "America/New_York",
+    "buffer_minutes": 15
+  },
+  "providers": {
+    "dr_smith": {
+      "name": "Dr. Smith",
+      "specialty": "General Dentistry",
+      "schedule": {
+        "2026-03-09": {
+          "day": "Monday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "10:00 AM", "patient": "Roberts, A.", "service": "exam"},
+            {"start": "10:15 AM", "end": "11:30 AM", "patient": "Kim, S.", "service": "filling"},
+            {"start": "1:00 PM", "end": "2:30 PM", "patient": "Brown, T.", "service": "root_canal"},
+            {"start": "3:00 PM", "end": "4:00 PM", "patient": "Garcia, M.", "service": "extraction"}
+          ],
+          "available": [
+            {"start": "11:45 AM", "end": "12:00 PM"},
+            {"start": "2:45 PM", "end": "3:00 PM"},
+            {"start": "4:15 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-10": {
+          "day": "Tuesday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "10:30 AM", "patient": "Wilson, J.", "service": "filling"},
+            {"start": "2:00 PM", "end": "3:00 PM", "patient": "Taylor, R.", "service": "exam"}
+          ],
+          "available": [
+            {"start": "10:45 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "2:00 PM"},
+            {"start": "3:15 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-11": {
+          "day": "Wednesday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "10:00 AM", "patient": "Adams, K.", "service": "exam"},
+            {"start": "10:15 AM", "end": "11:00 AM", "patient": "Lee, H.", "service": "whitening_consult"}
+          ],
+          "available": [
+            {"start": "11:15 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-12": {
+          "day": "Thursday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "10:30 AM", "patient": "Chen, L.", "service": "filling"},
+            {"start": "11:00 AM", "end": "12:00 PM", "patient": "Patel, N.", "service": "exam"},
+            {"start": "1:00 PM", "end": "2:30 PM", "patient": "Scott, D.", "service": "root_canal"},
+            {"start": "3:00 PM", "end": "4:00 PM", "patient": "Moore, B.", "service": "extraction"},
+            {"start": "4:15 PM", "end": "5:15 PM", "patient": "Clark, E.", "service": "filling"}
+          ],
+          "available": [
+            {"start": "10:45 AM", "end": "11:00 AM"},
+            {"start": "5:30 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-13": {
+          "day": "Friday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "10:00 AM", "patient": "Hall, P.", "service": "exam"}
+          ],
+          "available": [
+            {"start": "10:15 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-14": {
+          "day": "Saturday",
+          "hours": "CLOSED",
+          "available": []
+        }
+      }
+    },
+    "dr_lee": {
+      "name": "Dr. Lee",
+      "specialty": "Orthodontics",
+      "schedule": {
+        "2026-03-10": {
+          "day": "Tuesday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Young, A.", "service": "invisalign_check"},
+            {"start": "10:00 AM", "end": "10:45 AM", "patient": "King, M.", "service": "ortho_consult"}
+          ],
+          "available": [
+            {"start": "11:00 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-12": {
+          "day": "Thursday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Wright, C.", "service": "retainer_check"},
+            {"start": "2:00 PM", "end": "2:45 PM", "patient": "Allen, J.", "service": "ortho_consult"}
+          ],
+          "available": [
+            {"start": "10:00 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "2:00 PM"},
+            {"start": "3:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-14": {
+          "day": "Saturday",
+          "hours": "9:00 AM - 2:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Hill, R.", "service": "invisalign_check"}
+          ],
+          "available": [
+            {"start": "10:00 AM", "end": "2:00 PM"}
+          ]
+        }
+      }
+    },
+    "dr_patel": {
+      "name": "Dr. Patel",
+      "specialty": "Pediatric Dentistry",
+      "schedule": {
+        "2026-03-11": {
+          "day": "Wednesday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Lopez, S. (age 8)", "service": "pediatric_cleaning"},
+            {"start": "10:00 AM", "end": "10:45 AM", "patient": "Rivera, M. (age 5)", "service": "pediatric_exam"},
+            {"start": "2:00 PM", "end": "2:45 PM", "patient": "Cooper, J. (age 10)", "service": "sealant"}
+          ],
+          "available": [
+            {"start": "11:00 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "2:00 PM"},
+            {"start": "3:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-13": {
+          "day": "Friday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:00 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "White, L. (age 7)", "service": "pediatric_exam"}
+          ],
+          "available": [
+            {"start": "10:00 AM", "end": "12:00 PM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        }
+      }
+    },
+    "hygienist_sarah": {
+      "name": "Sarah (Hygienist)",
+      "specialty": "Cleanings",
+      "schedule": {
+        "2026-03-09": {
+          "day": "Monday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:30 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Evans, T.", "service": "cleaning"},
+            {"start": "10:00 AM", "end": "10:45 AM", "patient": "Baker, S.", "service": "cleaning"},
+            {"start": "11:00 AM", "end": "11:45 AM", "patient": "Nelson, K.", "service": "cleaning"},
+            {"start": "1:00 PM", "end": "1:45 PM", "patient": "Carter, W.", "service": "cleaning"},
+            {"start": "2:00 PM", "end": "2:45 PM", "patient": "Mitchell, L.", "service": "cleaning"}
+          ],
+          "available": [
+            {"start": "3:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-10": {
+          "day": "Tuesday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:30 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Perez, R.", "service": "cleaning"},
+            {"start": "11:00 AM", "end": "11:45 AM", "patient": "Roberts, C.", "service": "cleaning"}
+          ],
+          "available": [
+            {"start": "10:00 AM", "end": "10:45 AM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-11": {
+          "day": "Wednesday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:30 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Turner, H.", "service": "cleaning"}
+          ],
+          "available": [
+            {"start": "10:00 AM", "end": "12:30 PM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-12": {
+          "day": "Thursday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:30 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Phillips, D.", "service": "cleaning"},
+            {"start": "10:00 AM", "end": "10:45 AM", "patient": "Campbell, G.", "service": "cleaning"},
+            {"start": "11:00 AM", "end": "11:45 AM", "patient": "Parker, V.", "service": "cleaning"},
+            {"start": "1:00 PM", "end": "1:45 PM", "patient": "Edwards, N.", "service": "cleaning"},
+            {"start": "2:00 PM", "end": "2:45 PM", "patient": "Collins, F.", "service": "cleaning"},
+            {"start": "3:00 PM", "end": "3:45 PM", "patient": "Stewart, I.", "service": "cleaning"}
+          ],
+          "available": [
+            {"start": "4:00 PM", "end": "6:00 PM"}
+          ]
+        },
+        "2026-03-13": {
+          "day": "Friday",
+          "hours": "9:00 AM - 6:00 PM",
+          "lunch": "12:30 PM - 1:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Sanchez, O.", "service": "cleaning"}
+          ],
+          "available": [
+            {"start": "10:00 AM", "end": "12:30 PM"},
+            {"start": "1:00 PM", "end": "6:00 PM"}
+          ]
+        }
+      }
+    },
+    "hygienist_marcus": {
+      "name": "Marcus (Hygienist)",
+      "specialty": "Cleanings (Saturday only)",
+      "schedule": {
+        "2026-03-14": {
+          "day": "Saturday",
+          "hours": "9:00 AM - 2:00 PM",
+          "booked": [
+            {"start": "9:00 AM", "end": "9:45 AM", "patient": "Morris, B.", "service": "cleaning"},
+            {"start": "10:00 AM", "end": "10:45 AM", "patient": "Rogers, A.", "service": "cleaning"}
+          ],
+          "available": [
+            {"start": "11:00 AM", "end": "2:00 PM"}
+          ]
+        }
+      }
+    }
+  },
+  "existing_appointments_to_modify": {
+    "chen_lisa_filling": {
+      "patient": "Lisa Chen",
+      "event_id": "evt-chen-filling-001",
+      "service": "filling",
+      "provider": "Dr. Smith",
+      "current_date": "2026-03-12",
+      "current_day": "Thursday",
+      "current_time": "9:00 AM",
+      "duration_minutes": 75,
+      "notes": "Used in reschedule test scenario"
+    },
+    "park_david_cleaning": {
+      "patient": "David Park",
+      "event_id": "evt-park-cleaning-001",
+      "service": "cleaning",
+      "provider": "Sarah (Hygienist)",
+      "current_date": "2026-03-13",
+      "current_day": "Friday",
+      "current_time": "2:00 PM",
+      "duration_minutes": 45,
+      "notes": "Used in cancel test scenario"
+    }
+  }
+}

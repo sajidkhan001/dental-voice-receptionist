@@ -1,0 +1,36 @@
+{
+  "call_id": "call-20260308-004",
+  "scenario": "Existing patient canceling Friday cleaning",
+  "caller_phone": "+15554445555",
+  "call_start": "2026-03-08T11:30:00Z",
+  "language": "en-US",
+  "audio_quality": "good",
+  "caller_emotion": "calm",
+  "transcript": [
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:02",
+      "text": "Hello, I need to cancel my appointment please.",
+      "confidence": 0.99
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:08",
+      "text": "Yes, I'm a patient there. David Park. My birthday is November 12, 1978.",
+      "confidence": 0.98
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:20",
+      "text": "I have a cleaning on Friday at 2 PM. I need to cancel it. I'm going to be out of town.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:35",
+      "text": "No, I don't want to reschedule right now. I'll call back when I know my schedule better.",
+      "confidence": 0.96
+    }
+  ],
+  "full_text": "Hello, I need to cancel my appointment please. Yes, I'm a patient there. David Park. My birthday is November 12, 1978. I have a cleaning on Friday at 2 PM. I need to cancel it. I'm going to be out of town. No, I don't want to reschedule right now. I'll call back when I know my schedule better."
+}

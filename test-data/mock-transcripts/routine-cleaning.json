@@ -1,0 +1,54 @@
+{
+  "call_id": "call-20260308-001",
+  "scenario": "New patient wants to book a routine cleaning next week",
+  "caller_phone": "+15551234567",
+  "call_start": "2026-03-08T09:01:00Z",
+  "language": "en-US",
+  "audio_quality": "good",
+  "caller_emotion": "calm",
+  "transcript": [
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:02",
+      "text": "Hi, I need to schedule a cleaning for next week.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:08",
+      "text": "No, this would be my first time. My name is Jane Doe.",
+      "confidence": 0.98
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:22",
+      "text": "My number is 555-123-4567. It's a cell phone.",
+      "confidence": 0.95
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:30",
+      "text": "Email is jane.doe@email.com.",
+      "confidence": 0.96
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:38",
+      "text": "Yes, I have Delta Dental PPO.",
+      "confidence": 0.99
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:45",
+      "text": "Just a routine cleaning. Nothing is bothering me, I just haven't been in a while.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:01:05",
+      "text": "Tuesday or Wednesday morning would be great if you have anything.",
+      "confidence": 0.96
+    }
+  ],
+  "full_text": "Hi, I need to schedule a cleaning for next week. No, this would be my first time. My name is Jane Doe. My number is 555-123-4567. It's a cell phone. Email is jane.doe@email.com. Yes, I have Delta Dental PPO. Just a routine cleaning. Nothing is bothering me, I just haven't been in a while. Tuesday or Wednesday morning would be great if you have anything."
+}

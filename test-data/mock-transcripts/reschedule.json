@@ -1,0 +1,36 @@
+{
+  "call_id": "call-20260308-003",
+  "scenario": "Existing patient wants to reschedule Thursday filling to next week",
+  "caller_phone": "+15552223333",
+  "call_start": "2026-03-08T10:15:00Z",
+  "language": "en-US",
+  "audio_quality": "good",
+  "caller_emotion": "calm",
+  "transcript": [
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:02",
+      "text": "Hi, I need to reschedule my appointment. I have a filling scheduled for this Thursday.",
+      "confidence": 0.98
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:12",
+      "text": "Yes, I'm an existing patient. My name is Lisa Chen. Date of birth is March 5, 1990.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:25",
+      "text": "Something came up at work, so Thursday doesn't work anymore. Can I move it to sometime next week?",
+      "confidence": 0.96
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:35",
+      "text": "Afternoons would be better for me. Monday through Wednesday if possible.",
+      "confidence": 0.97
+    }
+  ],
+  "full_text": "Hi, I need to reschedule my appointment. I have a filling scheduled for this Thursday. Yes, I'm an existing patient. My name is Lisa Chen. Date of birth is March 5, 1990. Something came up at work, so Thursday doesn't work anymore. Can I move it to sometime next week? Afternoons would be better for me. Monday through Wednesday if possible."
+}

@@ -1,0 +1,53 @@
+{
+  "name": "dental-voice-swarm-server",
+  "version": "1.0.0",
+  "description": "Dental AI voice receptionist — Telnyx + Deepgram + Claude + Inworld voice pipeline",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts",
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:manual": "tsx test-webhook.ts",
+    "seed": "tsx cli/seed-dev.ts",
+    "migrate": "tsx cli/migrate.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.79.0",
+    "@deepgram/sdk": "^5.0.0",
+    "@sendgrid/mail": "^8.1.0",
+    "@sentry/node": "^8.55.2",
+    "@types/nodemailer": "^7.0.11",
+    "@types/ws": "^8.18.1",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^8.3.1",
+    "googleapis": "^171.4.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "nodemailer": "^8.0.2",
+    "pg": "^8.20.0",
+    "telnyx": "^6.25.0",
+    "uuid": "^10.0.0",
+    "winston": "^3.19.0",
+    "ws": "^8.19.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.0.0",
+    "@types/pg": "^8.18.0",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.0"
+  }
+}

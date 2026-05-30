@@ -1,0 +1,48 @@
+{
+  "call_id": "call-20260308-006",
+  "scenario": "Parent calling to schedule first dental visit for 6-year-old daughter",
+  "caller_phone": "+15558889999",
+  "call_start": "2026-03-08T15:30:00Z",
+  "language": "en-US",
+  "audio_quality": "good",
+  "caller_emotion": "calm",
+  "transcript": [
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:02",
+      "text": "Hi, I'm calling to schedule an appointment for my daughter. She's 6 years old and this would be her first dental visit.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:15",
+      "text": "Her name is Lily Martinez. My name is Maria Martinez. I'm her mom.",
+      "confidence": 0.98
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:25",
+      "text": "My number is 555-888-9999 and my email is maria.martinez@email.com.",
+      "confidence": 0.96
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:35",
+      "text": "We have MetLife dental insurance. She's just never been to the dentist before and I want to get her started.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:48",
+      "text": "Do you have a doctor who's good with kids? She's a little nervous about it.",
+      "confidence": 0.95
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:01:00",
+      "text": "Wednesdays or Fridays work best for us. After school, so maybe around 3 or 4 PM?",
+      "confidence": 0.96
+    }
+  ],
+  "full_text": "Hi, I'm calling to schedule an appointment for my daughter. She's 6 years old and this would be her first dental visit. Her name is Lily Martinez. My name is Maria Martinez. I'm her mom. My number is 555-888-9999 and my email is maria.martinez@email.com. We have MetLife dental insurance. She's just never been to the dentist before and I want to get her started. Do you have a doctor who's good with kids? She's a little nervous about it. Wednesdays or Fridays work best for us. After school, so maybe around 3 or 4 PM?"
+}

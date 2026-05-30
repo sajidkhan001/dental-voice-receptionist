@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+*.env
+!.env.example
+
+# Secrets & credentials
+credentials.json
+client_secret*.json
+token.json
+
+# Logs
+logs/
+
+# Intake submissions (contain PII)
+intake/
+
+# Build output
+dist/
+.next/
+out/
+venv/
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Additional security patterns
+*.backup
+*.bak
+*.log
+*.pem
+*.key
+
+# Internal / swarm-concept docs — kept locally, not published
+.claude/
+skills/
+/CLAUDE.md
+
+# CI workflow held back from initial push — GitHub token lacks `workflow` scope.
+# To enable CI later: run `gh auth refresh -h github.com -s workflow`, delete this line, then re-add the file.
+.github/workflows/
+
+# Unrelated computer-control tooling — not part of the product
+computer-use/
+
+# Unused MCP connector config stubs — not wired into the runtime
+mcp-connectors/

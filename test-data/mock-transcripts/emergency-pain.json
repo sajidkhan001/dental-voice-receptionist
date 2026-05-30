@@ -1,0 +1,42 @@
+{
+  "call_id": "call-20260308-002",
+  "scenario": "Emergency - severe pain 9/10, facial swelling, needs immediate help",
+  "caller_phone": "+15559876543",
+  "call_start": "2026-03-08T14:05:00Z",
+  "language": "en-US",
+  "audio_quality": "good",
+  "caller_emotion": "distressed",
+  "transcript": [
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:02",
+      "text": "Hi, I really need help. My tooth is killing me and my face is swollen on the left side.",
+      "confidence": 0.94
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:12",
+      "text": "The pain is like a 9 out of 10. I can barely eat or sleep. It started yesterday and it's getting worse.",
+      "confidence": 0.96
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:25",
+      "text": "Yes, I've been here before. My name is Mark Johnson. Date of birth is July 22, 1985.",
+      "confidence": 0.97
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:38",
+      "text": "I also think I might have a fever. And there's a bad taste in my mouth near that tooth.",
+      "confidence": 0.93
+    },
+    {
+      "speaker": "CALLER",
+      "timestamp": "00:00:48",
+      "text": "Please, can someone see me today? I'm really worried.",
+      "confidence": 0.98
+    }
+  ],
+  "full_text": "Hi, I really need help. My tooth is killing me and my face is swollen on the left side. The pain is like a 9 out of 10. I can barely eat or sleep. It started yesterday and it's getting worse. Yes, I've been here before. My name is Mark Johnson. Date of birth is July 22, 1985. I also think I might have a fever. And there's a bad taste in my mouth near that tooth. Please, can someone see me today? I'm really worried."
+}
